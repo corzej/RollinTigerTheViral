@@ -24,6 +24,13 @@
 		29C3EF5D173A990500DF0F94 /* EJFirstTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF5C173A990500DF0F94 /* EJFirstTopViewController.m */; };
 		29C3EF60173A9AE000DF0F94 /* EJMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF5F173A9AE000DF0F94 /* EJMenuViewController.m */; };
 		29C3EF65173AA14100DF0F94 /* EJEpi1TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF64173AA14100DF0F94 /* EJEpi1TopViewController.m */; };
+		29C3EF6F173AC37A00DF0F94 /* EJEpi2TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF6E173AC37A00DF0F94 /* EJEpi2TopViewController.m */; };
+		29C3EF72173AF69B00DF0F94 /* EJRightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF71173AF69B00DF0F94 /* EJRightMenuViewController.m */; };
+		29C3EF76173AF73600DF0F94 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C3EF75173AF73600DF0F94 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		29C3EF85173B019F00DF0F94 /* LARSAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF7D173B019F00DF0F94 /* LARSAdController.m */; };
+		29C3EF87173B019F00DF0F94 /* TOLAdAdapteriAds.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF82173B019F00DF0F94 /* TOLAdAdapteriAds.m */; };
+		29C3EF88173B019F00DF0F94 /* TOLAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF84173B019F00DF0F94 /* TOLAdViewController.m */; };
+		29C3EF8A173B01C400DF0F94 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C3EF89173B01C300DF0F94 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +61,19 @@
 		29C3EF5F173A9AE000DF0F94 /* EJMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJMenuViewController.m; sourceTree = "<group>"; };
 		29C3EF63173AA14100DF0F94 /* EJEpi1TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJEpi1TopViewController.h; sourceTree = "<group>"; };
 		29C3EF64173AA14100DF0F94 /* EJEpi1TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJEpi1TopViewController.m; sourceTree = "<group>"; };
+		29C3EF6D173AC37900DF0F94 /* EJEpi2TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJEpi2TopViewController.h; sourceTree = "<group>"; };
+		29C3EF6E173AC37A00DF0F94 /* EJEpi2TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJEpi2TopViewController.m; sourceTree = "<group>"; };
+		29C3EF70173AF69B00DF0F94 /* EJRightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJRightMenuViewController.h; sourceTree = "<group>"; };
+		29C3EF71173AF69B00DF0F94 /* EJRightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJRightMenuViewController.m; sourceTree = "<group>"; };
+		29C3EF75173AF73600DF0F94 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		29C3EF7C173B019F00DF0F94 /* LARSAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARSAdController.h; sourceTree = "<group>"; };
+		29C3EF7D173B019F00DF0F94 /* LARSAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARSAdController.m; sourceTree = "<group>"; };
+		29C3EF7E173B019F00DF0F94 /* TOLAdAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOLAdAdapter.h; sourceTree = "<group>"; };
+		29C3EF81173B019F00DF0F94 /* TOLAdAdapteriAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOLAdAdapteriAds.h; sourceTree = "<group>"; };
+		29C3EF82173B019F00DF0F94 /* TOLAdAdapteriAds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOLAdAdapteriAds.m; sourceTree = "<group>"; };
+		29C3EF83173B019F00DF0F94 /* TOLAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOLAdViewController.h; sourceTree = "<group>"; };
+		29C3EF84173B019F00DF0F94 /* TOLAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOLAdViewController.m; sourceTree = "<group>"; };
+		29C3EF89173B01C300DF0F94 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C3EF8A173B01C400DF0F94 /* AdSupport.framework in Frameworks */,
+				29C3EF76173AF73600DF0F94 /* iAd.framework in Frameworks */,
 				29C3EF59173A980000DF0F94 /* QuartzCore.framework in Frameworks */,
 				29C3EF2F173A96F900DF0F94 /* UIKit.framework in Frameworks */,
 				29C3EF31173A96F900DF0F94 /* Foundation.framework in Frameworks */,
@@ -94,6 +116,9 @@
 		29C3EF2D173A96F900DF0F94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				29C3EF89173B01C300DF0F94 /* AdSupport.framework */,
+				29C3EF7B173B019F00DF0F94 /* iadSingleton */,
+				29C3EF75173AF73600DF0F94 /* iAd.framework */,
 				29C3EF58173A980000DF0F94 /* QuartzCore.framework */,
 				29C3EF51173A973B00DF0F94 /* ECSlidingViewController */,
 				29C3EF2E173A96F900DF0F94 /* UIKit.framework */,
@@ -141,6 +166,7 @@
 		29C3EF5A173A981B00DF0F94 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				29C3EF77173AF8E300DF0F94 /* iAD */,
 				29C3EF61173AA0F700DF0F94 /* Sliding, Left, Right */,
 				29C3EF62173AA11200DF0F94 /* Contents */,
 			);
@@ -154,6 +180,8 @@
 				29C3EF4A173A96F900DF0F94 /* EJInitialSlidingViewController.m */,
 				29C3EF5E173A9AE000DF0F94 /* EJMenuViewController.h */,
 				29C3EF5F173A9AE000DF0F94 /* EJMenuViewController.m */,
+				29C3EF70173AF69B00DF0F94 /* EJRightMenuViewController.h */,
+				29C3EF71173AF69B00DF0F94 /* EJRightMenuViewController.m */,
 			);
 			name = "Sliding, Left, Right";
 			sourceTree = "<group>";
@@ -165,8 +193,32 @@
 				29C3EF5C173A990500DF0F94 /* EJFirstTopViewController.m */,
 				29C3EF63173AA14100DF0F94 /* EJEpi1TopViewController.h */,
 				29C3EF64173AA14100DF0F94 /* EJEpi1TopViewController.m */,
+				29C3EF6D173AC37900DF0F94 /* EJEpi2TopViewController.h */,
+				29C3EF6E173AC37A00DF0F94 /* EJEpi2TopViewController.m */,
 			);
 			name = Contents;
+			sourceTree = "<group>";
+		};
+		29C3EF77173AF8E300DF0F94 /* iAD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iAD;
+			sourceTree = "<group>";
+		};
+		29C3EF7B173B019F00DF0F94 /* iadSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				29C3EF7C173B019F00DF0F94 /* LARSAdController.h */,
+				29C3EF7D173B019F00DF0F94 /* LARSAdController.m */,
+				29C3EF7E173B019F00DF0F94 /* TOLAdAdapter.h */,
+				29C3EF81173B019F00DF0F94 /* TOLAdAdapteriAds.h */,
+				29C3EF82173B019F00DF0F94 /* TOLAdAdapteriAds.m */,
+				29C3EF83173B019F00DF0F94 /* TOLAdViewController.h */,
+				29C3EF84173B019F00DF0F94 /* TOLAdViewController.m */,
+			);
+			name = iadSingleton;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +296,11 @@
 				29C3EF5D173A990500DF0F94 /* EJFirstTopViewController.m in Sources */,
 				29C3EF60173A9AE000DF0F94 /* EJMenuViewController.m in Sources */,
 				29C3EF65173AA14100DF0F94 /* EJEpi1TopViewController.m in Sources */,
+				29C3EF6F173AC37A00DF0F94 /* EJEpi2TopViewController.m in Sources */,
+				29C3EF72173AF69B00DF0F94 /* EJRightMenuViewController.m in Sources */,
+				29C3EF85173B019F00DF0F94 /* LARSAdController.m in Sources */,
+				29C3EF87173B019F00DF0F94 /* TOLAdAdapteriAds.m in Sources */,
+				29C3EF88173B019F00DF0F94 /* TOLAdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +424,7 @@
 				29C3EF50173A96F900DF0F94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

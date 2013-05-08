@@ -1,18 +1,18 @@
 //
-//  EJEpi1ViewController.m
+//  EJEpi2TopViewController.m
 //  RollinTigerTheViral
 //
 //  Created by oiojin831 on 5/8/13.
 //  Copyright (c) 2013 rollintiger. All rights reserved.
 //
 
-#import "EJEpi1TopViewController.h"
+#import "EJEpi2TopViewController.h"
 
-@interface EJEpi1TopViewController ()
+@interface EJEpi2TopViewController ()
 
 @end
 
-@implementation EJEpi1TopViewController
+@implementation EJEpi2TopViewController
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -29,6 +29,7 @@
     [[LARSAdController sharedManager] addAdContainerToViewInViewController:self];
 
 }
+
 
 - (IBAction)revealMenu:(id)sender {
         [self.slidingViewController anchorTopViewTo:ECRight];

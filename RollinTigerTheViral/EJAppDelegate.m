@@ -8,11 +8,12 @@
 
 #import "EJAppDelegate.h"
 
+
 @implementation EJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[LARSAdController sharedManager] registerAdClass:[TOLAdAdapteriAds class]];
     return YES;
 }
 							
@@ -42,5 +43,9 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+//iad
+
 
 @end

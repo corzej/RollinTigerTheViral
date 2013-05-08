@@ -32,6 +32,8 @@
     }
     */
     [self.view addGestureRecognizer:self.slidingViewController.panGesture];
+    //iad
+    [[LARSAdController sharedManager] addAdContainerToViewInViewController:self];
 }
 
 

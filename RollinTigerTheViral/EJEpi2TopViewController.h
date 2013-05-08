@@ -1,5 +1,5 @@
 //
-//  EJEpi1ViewController.h
+//  EJEpi2TopViewController.h
 //  RollinTigerTheViral
 //
 //  Created by oiojin831 on 5/8/13.
@@ -12,7 +12,7 @@
 #import "EJMenuViewController.h"
 #import "LARSAdController.h"
 
-@interface EJEpi1TopViewController : UIViewController
-- (IBAction)revealMenu:(id)sender;
+@interface EJEpi2TopViewController : UIViewController
 
+- (IBAction)revealMenu:(id)sender;
 @end

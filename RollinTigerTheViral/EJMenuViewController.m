@@ -18,8 +18,8 @@
 
 - (void)awakeFromNib
 {
-    self.menuItems = [NSArray arrayWithObjects:@"The Viral", @"Episode 1", @"Episode 2", @"Episode 3", nil];
-    self.menuItemsNames =[NSDictionary dictionaryWithObjects: [NSArray arrayWithObjects:@"First", @"Epi1",@"Epi2",@"Epi3",nil] forKeys:menuItems];
+    self.menuItems = [NSArray arrayWithObjects:@"The Viral", @"Episode 1", @"Episode 2", nil];
+    self.menuItemsNames =[NSDictionary dictionaryWithObjects: [NSArray arrayWithObjects:@"First", @"Epi1",@"Epi2",nil] forKeys:menuItems];
 }
 
 - (void)viewDidLoad
