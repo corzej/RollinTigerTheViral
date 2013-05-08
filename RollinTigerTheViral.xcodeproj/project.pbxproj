@@ -17,7 +17,13 @@
 		29C3EF43173A96F900DF0F94 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29C3EF42173A96F900DF0F94 /* Default@2x.png */; };
 		29C3EF45173A96F900DF0F94 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29C3EF44173A96F900DF0F94 /* Default-568h@2x.png */; };
 		29C3EF48173A96F900DF0F94 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C3EF46173A96F900DF0F94 /* MainStoryboard.storyboard */; };
-		29C3EF4B173A96F900DF0F94 /* EJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF4A173A96F900DF0F94 /* EJViewController.m */; };
+		29C3EF4B173A96F900DF0F94 /* EJInitialSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF4A173A96F900DF0F94 /* EJInitialSlidingViewController.m */; };
+		29C3EF56173A973B00DF0F94 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF53173A973B00DF0F94 /* ECSlidingViewController.m */; };
+		29C3EF57173A973B00DF0F94 /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF55173A973B00DF0F94 /* UIImage+ImageWithUIView.m */; };
+		29C3EF59173A980000DF0F94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C3EF58173A980000DF0F94 /* QuartzCore.framework */; };
+		29C3EF5D173A990500DF0F94 /* EJFirstTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF5C173A990500DF0F94 /* EJFirstTopViewController.m */; };
+		29C3EF60173A9AE000DF0F94 /* EJMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF5F173A9AE000DF0F94 /* EJMenuViewController.m */; };
+		29C3EF65173AA14100DF0F94 /* EJEpi1TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EF64173AA14100DF0F94 /* EJEpi1TopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +35,25 @@
 		29C3EF38173A96F900DF0F94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29C3EF3A173A96F900DF0F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29C3EF3C173A96F900DF0F94 /* RollinTigerTheViral-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RollinTigerTheViral-Prefix.pch"; sourceTree = "<group>"; };
-		29C3EF3D173A96F900DF0F94 /* EJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJAppDelegate.h; sourceTree = "<group>"; };
-		29C3EF3E173A96F900DF0F94 /* EJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJAppDelegate.m; sourceTree = "<group>"; };
+		29C3EF3D173A96F900DF0F94 /* EJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EJAppDelegate.h; path = RollinTigerTheViral/EJAppDelegate.h; sourceTree = "<group>"; };
+		29C3EF3E173A96F900DF0F94 /* EJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EJAppDelegate.m; path = RollinTigerTheViral/EJAppDelegate.m; sourceTree = "<group>"; };
 		29C3EF40173A96F900DF0F94 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		29C3EF42173A96F900DF0F94 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		29C3EF44173A96F900DF0F94 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		29C3EF47173A96F900DF0F94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		29C3EF49173A96F900DF0F94 /* EJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJViewController.h; sourceTree = "<group>"; };
-		29C3EF4A173A96F900DF0F94 /* EJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJViewController.m; sourceTree = "<group>"; };
+		29C3EF49173A96F900DF0F94 /* EJInitialSlidingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJInitialSlidingViewController.h; sourceTree = "<group>"; };
+		29C3EF4A173A96F900DF0F94 /* EJInitialSlidingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJInitialSlidingViewController.m; sourceTree = "<group>"; };
+		29C3EF52173A973B00DF0F94 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		29C3EF53173A973B00DF0F94 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		29C3EF54173A973B00DF0F94 /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		29C3EF55173A973B00DF0F94 /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		29C3EF58173A980000DF0F94 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29C3EF5B173A990500DF0F94 /* EJFirstTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJFirstTopViewController.h; sourceTree = "<group>"; };
+		29C3EF5C173A990500DF0F94 /* EJFirstTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJFirstTopViewController.m; sourceTree = "<group>"; };
+		29C3EF5E173A9AE000DF0F94 /* EJMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJMenuViewController.h; sourceTree = "<group>"; };
+		29C3EF5F173A9AE000DF0F94 /* EJMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJMenuViewController.m; sourceTree = "<group>"; };
+		29C3EF63173AA14100DF0F94 /* EJEpi1TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJEpi1TopViewController.h; sourceTree = "<group>"; };
+		29C3EF64173AA14100DF0F94 /* EJEpi1TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJEpi1TopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C3EF59173A980000DF0F94 /* QuartzCore.framework in Frameworks */,
 				29C3EF2F173A96F900DF0F94 /* UIKit.framework in Frameworks */,
 				29C3EF31173A96F900DF0F94 /* Foundation.framework in Frameworks */,
 				29C3EF33173A96F900DF0F94 /* CoreGraphics.framework in Frameworks */,
@@ -57,6 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				29C3EF34173A96F900DF0F94 /* RollinTigerTheViral */,
+				29C3EF3D173A96F900DF0F94 /* EJAppDelegate.h */,
+				29C3EF3E173A96F900DF0F94 /* EJAppDelegate.m */,
+				29C3EF46173A96F900DF0F94 /* MainStoryboard.storyboard */,
 				29C3EF2D173A96F900DF0F94 /* Frameworks */,
 				29C3EF2C173A96F900DF0F94 /* Products */,
 			);
@@ -73,6 +94,8 @@
 		29C3EF2D173A96F900DF0F94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				29C3EF58173A980000DF0F94 /* QuartzCore.framework */,
+				29C3EF51173A973B00DF0F94 /* ECSlidingViewController */,
 				29C3EF2E173A96F900DF0F94 /* UIKit.framework */,
 				29C3EF30173A96F900DF0F94 /* Foundation.framework */,
 				29C3EF32173A96F900DF0F94 /* CoreGraphics.framework */,
@@ -83,11 +106,7 @@
 		29C3EF34173A96F900DF0F94 /* RollinTigerTheViral */ = {
 			isa = PBXGroup;
 			children = (
-				29C3EF3D173A96F900DF0F94 /* EJAppDelegate.h */,
-				29C3EF3E173A96F900DF0F94 /* EJAppDelegate.m */,
-				29C3EF46173A96F900DF0F94 /* MainStoryboard.storyboard */,
-				29C3EF49173A96F900DF0F94 /* EJViewController.h */,
-				29C3EF4A173A96F900DF0F94 /* EJViewController.m */,
+				29C3EF5A173A981B00DF0F94 /* ViewController */,
 				29C3EF35173A96F900DF0F94 /* Supporting Files */,
 			);
 			path = RollinTigerTheViral;
@@ -105,6 +124,49 @@
 				29C3EF44173A96F900DF0F94 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29C3EF51173A973B00DF0F94 /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				29C3EF52173A973B00DF0F94 /* ECSlidingViewController.h */,
+				29C3EF53173A973B00DF0F94 /* ECSlidingViewController.m */,
+				29C3EF54173A973B00DF0F94 /* UIImage+ImageWithUIView.h */,
+				29C3EF55173A973B00DF0F94 /* UIImage+ImageWithUIView.m */,
+			);
+			name = ECSlidingViewController;
+			path = RollinTigerTheViral/ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		29C3EF5A173A981B00DF0F94 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				29C3EF61173AA0F700DF0F94 /* Sliding, Left, Right */,
+				29C3EF62173AA11200DF0F94 /* Contents */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		29C3EF61173AA0F700DF0F94 /* Sliding, Left, Right */ = {
+			isa = PBXGroup;
+			children = (
+				29C3EF49173A96F900DF0F94 /* EJInitialSlidingViewController.h */,
+				29C3EF4A173A96F900DF0F94 /* EJInitialSlidingViewController.m */,
+				29C3EF5E173A9AE000DF0F94 /* EJMenuViewController.h */,
+				29C3EF5F173A9AE000DF0F94 /* EJMenuViewController.m */,
+			);
+			name = "Sliding, Left, Right";
+			sourceTree = "<group>";
+		};
+		29C3EF62173AA11200DF0F94 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				29C3EF5B173A990500DF0F94 /* EJFirstTopViewController.h */,
+				29C3EF5C173A990500DF0F94 /* EJFirstTopViewController.m */,
+				29C3EF63173AA14100DF0F94 /* EJEpi1TopViewController.h */,
+				29C3EF64173AA14100DF0F94 /* EJEpi1TopViewController.m */,
+			);
+			name = Contents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +238,12 @@
 			files = (
 				29C3EF3B173A96F900DF0F94 /* main.m in Sources */,
 				29C3EF3F173A96F900DF0F94 /* EJAppDelegate.m in Sources */,
-				29C3EF4B173A96F900DF0F94 /* EJViewController.m in Sources */,
+				29C3EF4B173A96F900DF0F94 /* EJInitialSlidingViewController.m in Sources */,
+				29C3EF56173A973B00DF0F94 /* ECSlidingViewController.m in Sources */,
+				29C3EF57173A973B00DF0F94 /* UIImage+ImageWithUIView.m in Sources */,
+				29C3EF5D173A990500DF0F94 /* EJFirstTopViewController.m in Sources */,
+				29C3EF60173A9AE000DF0F94 /* EJMenuViewController.m in Sources */,
+				29C3EF65173AA14100DF0F94 /* EJEpi1TopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +264,7 @@
 				29C3EF47173A96F900DF0F94 /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = RollinTigerTheViral;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
