@@ -26,11 +26,11 @@
     if (![self.slidingViewController.underLeftViewController isKindOfClass:[EJMenuViewController class]]) {
         self.slidingViewController.underLeftViewController  = [self.storyboard instantiateViewControllerWithIdentifier:@"Menu"];
     }
-    /*
-    if (![self.slidingViewController.underRightViewController isKindOfClass:[UnderRightViewController class]]) {
+    
+    if (![self.slidingViewController.underRightViewController isKindOfClass:[EJRightMenuViewController class]]) {
         self.slidingViewController.underRightViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"UnderRight"];
     }
-    */
+    
     [self.view addGestureRecognizer:self.slidingViewController.panGesture];
     //iad
     [[LARSAdController sharedManager] addAdContainerToViewInViewController:self];

@@ -9,10 +9,11 @@
 #import "EJRightMenuViewController.h"
 
 @interface EJRightMenuViewController ()
-
+@property (nonatomic, assign) CGFloat peekLeftAmount;
 @end
 
 @implementation EJRightMenuViewController
+@synthesize peekLeftAmount;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +27,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    self.peekLeftAmount = 40.0f;
+    [self.slidingViewController setAnchorLeftPeekAmount:self.peekLeftAmount];
+    self.slidingViewController.underRightWidthLayout = ECVariableRevealWidth;
 }
 
 - (void)didReceiveMemoryWarning

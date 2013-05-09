@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ECSlidingViewController.h"
+
 
 @interface EJRightMenuViewController : UIViewController
 

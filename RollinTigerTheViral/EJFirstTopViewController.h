@@ -10,6 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "ECSlidingViewController.h"
 #import "EJMenuViewController.h"
+#import "EJRightMenuViewController.h"
 #import "LARSAdController.h"
 
 @interface EJFirstTopViewController : UIViewController
